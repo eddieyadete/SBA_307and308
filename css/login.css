@@ -1,0 +1,94 @@
+body{
+    
+    /* background-image: url(../images/pexels-karolina-grabowska-7680154.jpg); */
+    background-image: url(../images/pexels-pixabay-301664.jpg) ;
+    background-size: cover;
+}
+.h1-text {
+    font-family: "Fascinate Inline", system-ui, Impact;
+    text-align: center;
+    background: linear-gradient(
+      to right,
+      #3a2697,
+      #ecbfe1,
+      #f19010,
+      #3a2697
+    );
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+  }
+
+.container {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  form {
+    height: 350px;
+    width: 300px;
+    border: 1px solid rgb(231, 102, 193);
+    border-radius: 1rem;
+    /* background: black; */
+    opacity: .5;
+    background-color: rgb(197, 121, 187);
+    /* background-blend-mode: lighten; */
+    /* -webkit-background-clip: text; */
+  }
+.login-text{
+    font-family: "Fascinate Inline", system-ui;
+    text-align: center;
+    background: linear-gradient(
+      to right,
+      #221b0c,
+      #3d2819,
+      #cc2e0a,
+      #ee5b44
+    );
+    /* -webkit-text-fill-color: transparent; */
+    -webkit-background-clip: text;
+}
+  button {
+    height: 40px;
+    width: 200px;
+    border-radius: 10px;
+    margin-top: 45px;
+    margin-left: 45px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    font-family: "Fascinate Inline", system-ui;
+    background: linear-gradient(
+      to right,
+      #f39521,
+      #ff6b08,
+      #cc2e0a,
+      #ee5b44
+    );
+  }
+  button:hover {
+    color: rgb(241, 73, 96);
+    border: 1px solid white;
+    cursor: pointer;
+  }
+  input {
+    height: 30px;
+    width: 200px;
+    margin-top: 20px;
+    margin-left: 40px;
+    text-align: center;
+    font-size: 20px;
+    border-radius: 1rem;
+  }
+  .sign-up{
+    /* display: flex; */
+    margin-left: 4rem;
+    border-radius: 1px;
+  }
+  .sign-up :hover{
+    color: rgb(241, 73, 96);
+    border: 1px solid white;
+    cursor: pointer;
+  }
+  

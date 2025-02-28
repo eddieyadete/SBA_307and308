@@ -1,0 +1,122 @@
+body {
+   display: flex;
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    
+    background: url("../images/pexels-cup-of-couple-8015616.jpg") no-repeat center center;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .error-message {
+    color: #f0ad4e;
+    font-size: 12px;
+    margin-top: -15px;
+    margin-bottom: 10px;
+    display: none;
+  }
+  
+.container{
+    display: flex;
+    height: 100%;
+    /* align-items: center; */
+    
+}
+option {
+    
+    background-color: rgb(182, 192, 188);
+    color: rgb(116, 3, 3);
+    
+  }
+
+.form-section {
+    background: linear-gradient(to right, 
+    rgba(183, 212, 199, 0.281),
+    rgba(67, 124, 86, 0.425),
+    rgba(183, 212, 199, 0.281));
+    color: #0c7183;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+    
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="tel"],
+select {
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #666;
+    color: #fff;
+    padding: 10px 0;
+    margin-bottom: 20px;
+    transition: border-color 0.3s ease, color 0.3s ease;
+  }
+      
+    
+#refer{
+    height: 40px;
+    width: 210px;
+    margin-top: 5px;
+    margin-left: 40px; 
+    text-align: center;
+    font-size: 15px;
+    }
+  
+form {
+    display: flex;
+    flex-direction: column;
+    background-color: transparent;
+  }
+.dining-space {
+    display: flex;
+    border: none;
+    padding: 0;
+    margin-bottom: 20px;
+  }
+input:hover,
+select:hover {
+  color: white;
+  border-bottom-color: white;
+}
+input[type="checkbox"],
+input[type="radio"] {
+  accent-color: #4ef0a4;
+}
+input::placeholder,
+select::placeholder {
+  color: #046651;
+  transition: color 0.3s ease, text-shadow 0.3s ease;
+}
+input:hover::placeholder,
+select:hover::placeholder {
+  color: white;
+  text-shadow: 0 0 5px white;
+}
+.book-btn {
+    background-color: #46ac70;
+    color: #333;
+    padding: 12px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+    transition: color 0.9s ease, text-shadow 0.9s ease-in-out, box-shadow 0.9s ease-in-out; 
+  }
+  
+  .book-btn:hover {
+    background-color: #b1f1a5;
+    color: #ccc;
+    
+  }
+  
+  p {
+    text-align: center;
+    font-size: 14px;
+    color: #ccc;
+  }
