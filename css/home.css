@@ -11,7 +11,7 @@
   
   body {
     margin: 0;
-    height: 245vh;
+    height: 100vh;
     background-color: var(--base-color);
   }
   
@@ -100,26 +100,6 @@
     text-fill-color: transparent;
     -webkit-text-fill-color: transparent;
   }
-  
-  #flip {
-    height: 160px;
-    overflow: hidden;
-  }
-  
-  #flip > div > div {
-    color: black;
-    padding: 4px 12px;
-    height: 45px;
-    margin-bottom: 45px;
-    display: inline-block;
-    text-align: center;
-    width: 200px;
-  }
-  
-  #flip div:first-child {
-    animation: show 5s linear infinite;
-  }
-  
   @keyframes show {
     0% {
       margin-top: -270px;
@@ -153,9 +133,9 @@
     grid-template-rows: 1.5fr 3.5fr 2.5fr 2.5fr 1fr;
     grid-template-areas:
       "main main header"
-      "main main wheels"
-      "My-Life Register wheels"
-      "login-box Product wheels"
+      "main main free-pic"
+      "My-Life Register free-pic"
+      "login-box Product free-pic"
       "footer footer footer";
     height: 140vh;
     gap: 0.8em;
@@ -166,7 +146,7 @@
   
   header {
     grid-area: header;
-    background-image: url(../images/dashboard.jpg);
+    background-image: url(../images/pexels-pixabay-301664.jpg);
     color: white;
   }
   
@@ -220,7 +200,7 @@
   #Register,
   #Product,
   #login-box,
-  .wheels {
+  .free-pic {
     background-blend-mode: lighten;
     font-size: 40px;
     background-size: cover;
@@ -231,11 +211,11 @@
     transition: box-shadow 0.3s ease-in-out, text-shadow 0.3s ease-in-out;
   }
   
-  .wheels {
+  .free-pic {
     color: #ccc;
-    grid-area: wheels;
+    grid-area: free-pic;
     background-color: var(--action-color);
-    background-image: url(../images/carside2.jpg);
+    background-image: url(../images/pexels-enginakyurt-2092075.jpg);
     background-blend-mode: darken;
   }
   
@@ -253,7 +233,7 @@
   #Product:hover,
   #My-Life:hover,
   #Register:hover,
-  .wheels:hover {
+  .free-pic:hover {
     background-blend-mode: color-burn;
     opacity: 1;
     cursor: pointer;
@@ -286,7 +266,7 @@
       grid-template-areas:
         "header"
         "main"
-        "wheels"
+        "free-pic"
         "My-Life"
         "Register"
         "login-box"
