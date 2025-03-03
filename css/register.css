@@ -10,11 +10,12 @@ body {
     flex-direction: column;
   }
   .error-message {
-    color: #f0ad4e;
-    font-size: 12px;
-    margin-top: -15px;
+    /* display: block; */
+    color: #814e07;
+    /* font-size: 12px; */
+    margin-top: -5px;
     margin-bottom: 10px;
-    display: none;
+    
   }
   
 .container{
@@ -62,7 +63,7 @@ select {
     height: 40px;
     width: 210px;
     margin-top: 5px;
-    margin-left: 40px; 
+    margin-left: 0px; 
     text-align: center;
     font-size: 15px;
     }
@@ -76,7 +77,8 @@ form {
     display: flex;
     border: none;
     padding: 0;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
+    
   }
 input:hover,
 select:hover {
@@ -86,6 +88,8 @@ select:hover {
 input[type="checkbox"],
 input[type="radio"] {
   accent-color: #4ef0a4;
+  /* margin-bottom: 15px; */
+  
 }
 input::placeholder,
 select::placeholder {
@@ -118,5 +122,5 @@ select:hover::placeholder {
   p {
     text-align: center;
     font-size: 14px;
-    color: #ccc;
+    color: #363636;
   }

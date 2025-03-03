@@ -10,24 +10,45 @@
   <body>
     <div class="container">
       <div class="form-section">
-        <h1>Sign Up For An Account</h1>
-        <form id="signupForm" action="login.html">
-          <input type="text" id="name" name="name" placeholder="Full Name" />
+        <h1>Sign Up</h1>
+          <form id="signupForm" action="home.html">
+          <input 
+              type="text" 
+              id="name" 
+              name="name" 
+              placeholder="Full Name" 
+              />
           <div class="error-message" id="nameError">
             Please enter your full name.
           </div>
-          <input type="text" id="email" name="email" placeholder="Email Address"/>
+          <input 
+              type="text" 
+              id="email" 
+              name="email" 
+              placeholder="Email Address"
+              />
           <div class="error-message" id="emailError">
             Please enter a valid email address.</div>
-          <input type="tel" id="tel" name="tel" placeholder="Phone number" />
+          <input 
+              type="tel" 
+              id="tel" 
+              name="tel" 
+              placeholder="Phone number" 
+              />
           <div class="error-message" id="telError">
             Please enter a valid phone number.</div>
-          <input type="password" id="password" name="password" placeholder="Password"/>
+          <input 
+              type="password"   
+              id="password" 
+              name="password" 
+              placeholder="Password"
+              />
           <div class="error-message" id="passwordError">
             Password must be at least 8 characters long and contain at least one
             uppercase letter, one lowercase letter, and one digit.</div>
           <select id="refer" name="refer">
-            <option value="" disabled selected>How did you hear about us?</option>
+            <option value="" disabled selected>
+              How did you hear about us?</option>
             <option value="facebook">Facebook</option>
             <option value="linkedin">Linkedin</option>
             <option value="google">Google</option>
@@ -36,19 +57,31 @@
             Please select how you heard about us.
           </div>
           <fieldset class="dining-space">
-            <legend>Preferred Contact Method</legend>
+            <legend style="padding-bottom:5px;">Preferred Contact Method</legend>
             <label>
-              <input type="radio" name="contact" value="email" />
-              Email
+              <input 
+                  type="radio" 
+                  name="contact" 
+                  value="email" />
+                Email
             </label>
             <label>
-              <input type="radio" name="contact" value="phone" />
+              <input 
+                  type="radio" 
+                  name="contact" 
+                  value="phone" />
               Phone
             </label>
+            <div class="error-message" id="PreferredContactError" style="margin:15px">
+              please enter Preferred Contact 
+            </div>
           </fieldset>
 
           <label>
-            <input type="checkbox" id="terms" name="terms" />
+            <input 
+                type="checkbox" 
+                id="terms" 
+                name="terms" />
             I agree to the terms and conditions
           </label>
           <div class="error-message" id="termsError" style="margin-top: 15px">

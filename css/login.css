@@ -9,10 +9,11 @@ body{
     text-align: center;
     background: linear-gradient(
       to right,
-      #3a2697,
-      #ecbfe1,
-      #f19010,
-      #3a2697
+      #b15001c0,
+      rgb(184, 65, 65),
+      #0e5520
+   
+      /* #f70ba8 */
     );
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
@@ -29,11 +30,15 @@ body{
   form {
     height: 350px;
     width: 300px;
-    border: 1px solid rgb(231, 102, 193);
+    border: 1px solid rgb(195, 240, 177);
     border-radius: 1rem;
     /* background: black; */
-    opacity: .5;
-    background-color: rgb(197, 121, 187);
+    opacity: .7;
+    /* background-image: ; */
+    background: linear-gradient(to right, 
+    rgba(183, 212, 199, 0.281),
+    rgba(67, 124, 86, 0.425),
+    rgba(183, 212, 199, 0.281));
     /* background-blend-mode: lighten; */
     /* -webkit-background-clip: text; */
   }
@@ -45,7 +50,7 @@ body{
       #221b0c,
       #3d2819,
       #cc2e0a,
-      #ee5b44
+      #c4eb1a
     );
     /* -webkit-text-fill-color: transparent; */
     -webkit-background-clip: text;
@@ -54,21 +59,16 @@ body{
     height: 40px;
     width: 200px;
     border-radius: 10px;
-    margin-top: 45px;
+    margin-top: 40px;
     margin-left: 45px;
-    margin-bottom: 20px;
-    font-size: 16px;
+    margin-bottom: 10px;
+    color: rgb(20, 20, 20);
+    font-size: 20px;
     font-family: "Fascinate Inline", system-ui;
-    background: linear-gradient(
-      to right,
-      #f39521,
-      #ff6b08,
-      #cc2e0a,
-      #ee5b44
-    );
+    background-color: rgb(226, 241, 236);
   }
   button:hover {
-    color: rgb(241, 73, 96);
+    color: rgb(36, 108, 241);
     border: 1px solid white;
     cursor: pointer;
   }
@@ -82,13 +82,13 @@ body{
     border-radius: 1rem;
   }
   .sign-up{
-    /* display: flex; */
-    margin-left: 4rem;
+    display: flex;
+    font-size: 20px;
+    margin-left: 3.2rem;
     border-radius: 1px;
   }
-  .sign-up :hover{
-    color: rgb(241, 73, 96);
-    border: 1px solid white;
+  .sign-up:hover{
+    color: rgb(124, 247, 107);
     cursor: pointer;
   }
   
