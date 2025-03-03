@@ -154,9 +154,9 @@
     grid-template-areas:
       "main main header"
       "main main wheels"
-      "classics newera wheels"
-      "racing offroad wheels"
-      "footer footer wheels";
+      "My-Life Register wheels"
+      "login-box Product wheels"
+      "footer footer footer";
     height: 140vh;
     gap: 0.8em;
     margin: 1em;
@@ -172,33 +172,33 @@
   
   main {
     grid-area: main;
-    background-image: url(../images/main.jpeg);
+    background-image: url(../images/WIN_20250123_07_57_39_Pro.jpg);
     background-color: var(--base-color);
     font-size: 50px;
-    color: #ccc;
+    color: #4d4848;
   }
   
-  #classics {
-    grid-area: classics;
+  #My-Life {
+    grid-area: My-Life;
     background-color: var(--layover-color);
-    background-image: url(../images/classics.jpg);
+    background-image: url(../images/pexels-anna-nekrashevich-8534233.jpg);
   }
   
-  #newera {
-    grid-area: newera;
+  #Register {
+    grid-area: Register;
     background-color: var(--layover-color);
-    background-image: url(../images/newera.jpg);
+    background-image: url(../images/pexels-anna-nekrashevich-8534233.jpg);
   }
-  #offroad {
-    grid-area: offroad;
+  #Product {
+    grid-area: Product;
     background-color: var(--layover-color);
-    background-image: url(../images/main8.jpg);
+    background-image: url(../images/nightLight.jpg);
   }
   
-  #racing {
-    grid-area: racing;
+  #login-box {
+    grid-area: login-box;
     background-color: var(--layover-color);
-    background-image: url(../images/race.jpg);
+    background-image: url(../images/pexels-jonaskakaroto-736230.jpg);
   }
   
   footer {
@@ -216,10 +216,10 @@
   
   header,
   main,
-  #classics,
-  #newera,
-  #offroad,
-  #racing,
+  #My-Life,
+  #Register,
+  #Product,
+  #login-box,
   .wheels {
     background-blend-mode: lighten;
     font-size: 40px;
@@ -249,10 +249,10 @@
     color: white;
   }
   
-  #racing:hover,
-  #offroad:hover,
-  #classics:hover,
-  #newera:hover,
+  #login-box:hover,
+  #Product:hover,
+  #My-Life:hover,
+  #Register:hover,
   .wheels:hover {
     background-blend-mode: color-burn;
     opacity: 1;
@@ -287,10 +287,10 @@
         "header"
         "main"
         "wheels"
-        "classics"
-        "newera"
-        "racing"
-        "offroad"
+        "My-Life"
+        "Register"
+        "login-box"
+        "Product"
         "footer";
     }
   }
