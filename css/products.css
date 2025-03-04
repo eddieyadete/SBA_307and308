@@ -2,16 +2,26 @@
 body {
     display: flex;
     height: 100vh;
-    background-image: url(../images/pexels-anniroenkae-2089891.jpg) no-repeat center center ;
+    background-image: url(../images/pexels-karolina-grabowska-7680154.jpg)  ;
     background-size: cover;
     justify-content: center;
     align-items: center;
     flex-direction: column;  
   }
-        .container{
-            display: flex;
-        }
+
+
+  .table-container {
+    
+   height: 300px;
+    background-image: rgb(26, 93, 151);
+    display: flex;
+    gap: 20px; 
+}
+            
+            
+        
         .boxes{
+            float: left;
             border: .1px solid;
             width: 99px;
             height: 99px;
